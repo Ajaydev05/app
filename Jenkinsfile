@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = 'dockerhub-credentials-id'
-        DOCKERHUB_USERNAME = 'your-dockerhub-username'
+        DOCKERHUB_USERNAME = 'ajaydev05'
 
         FRONTEND_IMAGE = "${DOCKERHUB_USERNAME}/app1-frontend"
         BACKEND_IMAGE  = "${DOCKERHUB_USERNAME}/app1-backend"
