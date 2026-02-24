@@ -5,8 +5,8 @@ pipeline {
         DOCKERHUB_CREDENTIALS = 'dockerhub-credentials-id'
         DOCKERHUB_USERNAME = 'your-dockerhub-username'
 
-        FRONTEND_IMAGE = "${DOCKERHUB_USERNAME}/mean-frontend"
-        BACKEND_IMAGE  = "${DOCKERHUB_USERNAME}/mean-backend"
+        FRONTEND_IMAGE = "${DOCKERHUB_USERNAME}/app1-frontend"
+        BACKEND_IMAGE  = "${DOCKERHUB_USERNAME}/app1-backend"
 
         IMAGE_TAG = "latest"
     }
@@ -15,7 +15,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-username/mean-app.git'
+                git 'https://github.com/Ajaydev05/app.git'
             }
         }
 
