@@ -8,7 +8,7 @@ This project demonstrates containerization and CI/CD deployment of a MEAN stack 
 
 * Frontend: Angular (served via Nginx)
 * Backend: Node.js / Express
-* Database: MongoDB (optional if used)
+* Database: MongoDB 
 * Containerization: Docker
 * Orchestration: Docker Compose
 * CI/CD: Jenkins
